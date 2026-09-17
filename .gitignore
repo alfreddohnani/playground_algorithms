@@ -1,16 +1,14 @@
 # 1. Match and ignore all files (including extensionless binaries)
-*
+# *
 
 # Ignore all files at the root level
-/*
+# /*
 
 # Do not ignore directories
-!/*/
 
-!*.rs
-!*.ex
-!*.c
-!*.js
-!*.ts
-!.gitignore
-!Makefile
+
+/rust/target/*
+.DS_Store
+.vscode
+
+binary_search/binary_search
